@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    padding: 80px 5%;
+    background-color: rgb(184, 3, 3);
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2%;
+    background-color: rgb(80, 109, 152);
+    border-radius: 10px;
+    gap: 25px;
+}
+
+input {
+    height: 35px;
+    /* width: 80%; */
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 10px 2%;
+    font-size: 25px;
+}
+
+button {
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.search-logo {
+    height: 25px;
+}
+
+.ear-input {
+    display: none;
+}
+
+.collar-btn {
+    display: none;
+    width: 20%;
+}
+
+.ear-btn {
+    width: 20%;
+}
+
+.all-btn {
+    margin-top: 30px;
+    width: 50%;
+    padding: 10px 2%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+.section {
+    background-color: rgb(194, 196, 194);
+    margin-top: 20px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.section-count {
+    margin: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.table-header {
+    padding: 10px 20px 8px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.switch-btn {
+    position: absolute;
+    right: 50px;
+    top: 3px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    width: 35px;
+    font-size: 20px;
+    background-color: rgb(251, 243, 18);
+    color: rgb(10, 123, 244);
+}
+
+.close-btn {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    width: 35px;
+    font-size: 20px;
+    background-color: rgb(251, 18, 18);
+    color: white;
+}
+
+.table-collar,
+.table-ear {
+    display: none;
+}
+
+.cow {
+    background-color: white;
+    padding: 5px 15px;
+    margin: 2px 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: rgb(61, 61, 62);
+}
+
+.cow-collar {
+    cursor: pointer;
+}
+
+.cow-collar:hover {
+    font-size: 22px;
+    padding-left: 20px;
+    transition: 200ms;
+}
+
+.ketons {
+    margin-top: 50px;
+}
+
+.ketons h2 {
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.ketons-wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5%;
+}
+
+.seven,
+.fourteen {
+    background-color: rgb(194, 196, 194);
+}
+
+.seven h3,
+.fourteen h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.field {
+    background-color: white;
+    min-height: 30px;
+    margin: 10px;
+}
+
+.cow-keton {
+    background-color: white;
+    padding: 5px 15px;
+    margin: 2px 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: rgb(61, 61, 62);
+}
+
+.on {
+    display: block;
+}
+
+.off {
+    display: none;
+}
+
+.is-active {
+    color: rgb(184, 3, 3);
+}
+
+.alarm {
+    color: rgb(184, 3, 3);
+    left: 8px;
+
+}
+
+.passed {
+    color: green;
+    left: 5px;
+}
+
+.alarm,
+.passed {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+}
