@@ -7,6 +7,7 @@ const collarInput = document.querySelector('.collar-input')
 const section = document.querySelector('.section')
 const fieldSeven = document.querySelector('.field-seven')
 const fieldFourteen = document.querySelector('.field-fourteen')
+const totalSection = document.querySelector('.total-section')
 
 export function changeSearch() {
     ear.classList.toggle('off');
@@ -20,13 +21,13 @@ function closeSection() {
     section.innerHTML = ''
 }
 
-function sortingCows(cows, typeOfSort){
+function sortingCows(cows, typeOfSort) {
 
     let sortedCows = []
     cows.map(cow => cow.enable ? sortedCows.push(cow) : null)
-   
+
     switch (typeOfSort) {
-        case "new":
+        case "lact":
             sortedCows.sort((a, b) => new Date(b.childbirth) - new Date(a.childbirth));
             break;
         case "collar":
@@ -71,8 +72,8 @@ export function renderCows() {
                 <h3 class='cow-collar'>${cow.collar}</h3> 
                 <h3>${cow.ear}</h3>
                 <h3>${dayOfLactation(cow.childbirth)}</h3> 
-                ${cow.endometritis ? `<p class= 'alarm'>!</p>` : '' } 
-                ${cow.test ? `<p class= 'passed'>+</p>` : '' }         
+                ${cow.endometritis ? `<p class= 'alarm'>!</p>` : ''} 
+                ${cow.test ? `<p class= 'passed'>+</p>` : ''}         
         </div>`).join('')}
         </section>
         <section class= 'table-collar'>
@@ -86,8 +87,8 @@ export function renderCows() {
                 <h3 class='cow-collar'>${cow.collar}</h3> 
                 <h3>${cow.ear}</h3>
                 <h3>${dayOfLactation(cow.childbirth)}</h3> 
-                ${cow.endometritis ? `<p class= 'alarm'>!</p>` : '' }     
-                ${cow.test ? `<p class= 'passed'>+</p>` : '' }       
+                ${cow.endometritis ? `<p class= 'alarm'>!</p>` : ''}     
+                ${cow.test ? `<p class= 'passed'>+</p>` : ''}       
             </div>`).join('')}
         </section>
        `
@@ -103,7 +104,7 @@ export function renderCows() {
     lactActive.classList.toggle('is-active')
     cowCollars.forEach(cowCollar => cowCollar.addEventListener('click', e => {
         singleCow = e.target.innerText
-        console.log(singleCow)
+        renderCowCard(singleCow)
     }))
 
     function changeToCollar() {
@@ -146,6 +147,25 @@ function renderKetonsFourteen() {
     ).join('')}`
 }
 
+function renderCowCard(collar) {
+    singleCow = sortedByLact.find((cow) => cow.collar === collar)
+    totalSection.innerHTML = `
+        <div class= 'cow-card'>
+            <button class = 'back-btn'>Назад в секцию</button>
+            <h2>Ошейник: ${singleCow.collar}</h2>
+            <h2>Ухо: ${singleCow.ear}</h2>
+            <h2>День лактации: ${dayOfLactation(singleCow.childbirth)}</h2>
+        </div>
+    `
+    console.log(singleCow)
+    const backBtn = document.querySelector('.back-btn')
+    backBtn.addEventListener('click', e => {
+        location.reload()
+        // renderCows()
+    }
+    )
+}
+
+
 renderKetonsSeven()
 renderKetonsFourteen()
-
