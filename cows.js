@@ -1,6 +1,28 @@
 export const cows = [
 
 {
+        collar: '1989',
+        ear: '819242',
+        childbirth: new Date('2024-08-31'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+    },
+{
+        collar: '1912',
+        ear: 'n/a',
+        childbirth: new Date('2024-09-01'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+    },
+{
         collar: '483',
         ear: '767506',
         childbirth: new Date('2024-09-08'),
