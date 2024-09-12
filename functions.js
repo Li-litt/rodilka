@@ -1,6 +1,6 @@
 import { cows } from "./cows.js"
 const sectionCount = document.querySelector('.section-count')
-const collarSearch = document.querySelector('.collar-search')
+const collarSearch = document.querySelector('.search-collar-btn')
 const earSearch = document.querySelector('.ear-search')
 const searchCollarBtn = document.querySelector('.search-collar-btn')
 const searchEarBtn = document.querySelector('.search-ear-btn')
