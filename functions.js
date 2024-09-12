@@ -180,17 +180,17 @@ function renderCowCard(number) {
     )
 }
 
-collarSearch.onsubmit = (e) => {
+collarSearch.addEventListener('click', e => {
     e.preventDefault();
     const collar = collarInput.value
     renderCowCard(collar);
-};
+});
 
-earSearch.onsubmit = (e) => {
-    e.preventDefault();
-    const ear = earInput.value
-    renderCowCard(ear);
-}
+// earSearch.onsubmit = (e) => {
+//     e.preventDefault();
+//     const ear = earInput.value
+//     renderCowCard(ear);
+// }
 
 renderKetonsSeven()
 renderKetonsFourteen()
