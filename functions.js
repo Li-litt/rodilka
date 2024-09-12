@@ -1,10 +1,15 @@
 import { cows } from "./cows.js"
 const sectionCount = document.querySelector('.section-count')
+const collarSearch = document.querySelector('.collar-search')
+const earSearch = document.querySelector('.ear-search')
+const searchCollarBtn = document.querySelector('.search-collar-btn')
+const searchEarBtn = document.querySelector('.search-ear-btn')
 const ear = document.querySelector('.ear-btn')
 const collar = document.querySelector('.collar-btn')
 const earInput = document.querySelector('.ear-input')
 const collarInput = document.querySelector('.collar-input')
 const section = document.querySelector('.section')
+const ketons = document.querySelector('.ketons')
 const fieldSeven = document.querySelector('.field-seven')
 const fieldFourteen = document.querySelector('.field-fourteen')
 const totalSection = document.querySelector('.total-section')
@@ -14,6 +19,8 @@ export function changeSearch() {
     collar.classList.toggle('on');
     earInput.classList.toggle('on');
     collarInput.classList.toggle('off');
+    searchCollarBtn.classList.toggle('off');
+    searchEarBtn.classList.toggle('on')
 }
 
 function closeSection() {
@@ -59,8 +66,8 @@ export function renderCows() {
         <h3>Всего: ${sortedByLact.length} голов</h3>`
     section.classList.toggle('on')
     section.innerHTML = `
-    <button class='switch-btn'>/</button>
-    <button class='close-btn'>X</button>
+    <button class='switch-btn'>&#47;</button>
+    <button class='close-btn'>&#10007;</button>
     <section class= 'table-lact'>
         <div class='table-header'>
             <h3 class= "collar" >Ошейник</h3>
@@ -147,17 +154,24 @@ function renderKetonsFourteen() {
     ).join('')}`
 }
 
-function renderCowCard(collar) {
-    singleCow = sortedByLact.find((cow) => cow.collar === collar)
+function renderCowCard(number) {
+    singleCow = sortedByLact.find((cow) => cow.collar === number)
     totalSection.innerHTML = `
         <div class= 'cow-card'>
-            <button class = 'back-btn'>Назад в секцию</button>
-            <h2>Ошейник: ${singleCow.collar}</h2>
-            <h2>Ухо: ${singleCow.ear}</h2>
-            <h2>День лактации: ${dayOfLactation(singleCow.childbirth)}</h2>
+        <div class= 'cow-card-header'>
+         <button class = 'back-btn'>&#8592;</button>
+            <h2 class="single-collar">${singleCow.collar}</h2>
+        </div>
+            <div class='cow-info-wrapper'>
+                <h2>Ухо: ${singleCow.ear}</h2>
+                <h2>День лактации: ${dayOfLactation(singleCow.childbirth)}</h2>
+                <h2>Дата отела: ${singleCow.childbirth.toLocaleDateString()}</h2>
+            </div>
         </div>
     `
+    ketons.innerHTML = ""
     console.log(singleCow)
+
     const backBtn = document.querySelector('.back-btn')
     backBtn.addEventListener('click', e => {
         location.reload()
@@ -166,6 +180,17 @@ function renderCowCard(collar) {
     )
 }
 
+collarSearch.onsubmit = (e) => {
+    e.preventDefault();
+    const collar = collarInput.value
+    renderCowCard(collar);
+};
+
+earSearch.onsubmit = (e) => {
+    e.preventDefault();
+    const ear = earInput.value
+    renderCowCard(ear);
+}
 
 renderKetonsSeven()
 renderKetonsFourteen()

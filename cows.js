@@ -1,6 +1,6 @@
 export const cows = [
 
-{
+    {
         collar: '1989',
         ear: '819242',
         childbirth: new Date('2024-08-31'),
@@ -11,7 +11,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '1912',
         ear: 'n/a',
         childbirth: new Date('2024-09-01'),
@@ -22,7 +22,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '483',
         ear: '767506',
         childbirth: new Date('2024-09-08'),
@@ -33,7 +33,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '479',
         ear: '171792',
         childbirth: new Date('2024-09-08'),
@@ -44,7 +44,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '477',
         ear: '173213',
         childbirth: new Date('2024-09-08'),
@@ -55,7 +55,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '1923',
         ear: '818587',
         childbirth: new Date('2024-09-08'),
@@ -67,7 +67,7 @@ export const cows = [
         enable: true,
     },
 
-{
+    {
         collar: '1893',
         ear: 'n/a',
         childbirth: new Date('2024-09-07'),
@@ -78,7 +78,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '471',
         ear: '317363',
         childbirth: new Date('2024-09-07'),
@@ -89,7 +89,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '1870',
         ear: 'n/a',
         childbirth: new Date('2024-09-07'),
@@ -100,7 +100,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '1787',
         ear: 'n/a',
         childbirth: new Date('2024-09-06'),
@@ -111,7 +111,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '437',
         ear: '172816',
         childbirth: new Date('2024-09-06'),
@@ -122,7 +122,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '432',
         ear: '170492',
         childbirth: new Date('2024-09-06'),
@@ -133,7 +133,7 @@ export const cows = [
         test: false,
         enable: true,
     },
-{
+    {
         collar: '427',
         ear: '175743',
         childbirth: new Date('2024-09-06'),
