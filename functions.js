@@ -180,11 +180,11 @@ function renderCowCard(number) {
     )
 }
 
-collarSearch.addEventListener('click', e => {
-    e.preventDefault();
-    const collar = collarInput.value
-    renderCowCard(collar);
-});
+// collarSearch.addEventListener('click', e => {
+//     e.preventDefault();
+//     const collar = collarInput.value
+//     renderCowCard(collar);
+// });
 
 // earSearch.onsubmit = (e) => {
 //     e.preventDefault();
