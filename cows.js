@@ -10,10 +10,16 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '1912',
-        ear: 'n/a',
+        ear: '914605',
         childbirth: new Date('2024-09-01'),
         ruptures: false,
         placentaRetention: false,
@@ -21,6 +27,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '483',
@@ -32,6 +44,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '479',
@@ -43,6 +61,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '477',
@@ -54,6 +78,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '1923',
@@ -65,11 +95,17 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
 
     {
         collar: '1893',
-        ear: 'n/a',
+        ear: '914641',
         childbirth: new Date('2024-09-07'),
         ruptures: false,
         placentaRetention: false,
@@ -77,6 +113,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '471',
@@ -88,10 +130,16 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '1870',
-        ear: 'n/a',
+        ear: '913253',
         childbirth: new Date('2024-09-07'),
         ruptures: false,
         placentaRetention: false,
@@ -99,10 +147,16 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '1787',
-        ear: 'n/a',
+        ear: '918939',
         childbirth: new Date('2024-09-06'),
         ruptures: false,
         placentaRetention: false,
@@ -110,6 +164,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '437',
@@ -121,6 +181,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '432',
@@ -132,6 +198,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '427',
@@ -143,12 +215,255 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
 
-
+    {
+        collar: '447',
+        ear: '173815',
+        childbirth: new Date('2024-09-10'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '492',
+        ear: '173754',
+        childbirth: new Date('2024-09-10'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '1976',
+        ear: '915570',
+        childbirth: new Date('2024-09-10'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '1943',
+        ear: '915400',
+        childbirth: new Date('2024-09-10'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '438',
+        ear: '173055',
+        childbirth: new Date('2024-09-11'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '1971',
+        ear: '913518',
+        childbirth: new Date('2024-09-12'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '436',
+        ear: '175585',
+        childbirth: new Date('2024-09-13'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '1708',
+        ear: '316559',
+        childbirth: new Date('2024-09-13'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '1472',
+        ear: '913493',
+        childbirth: new Date('2024-09-13'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '445',
+        ear: '174993',
+        childbirth: new Date('2024-09-15'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '452',
+        ear: '768064',
+        childbirth: new Date('2024-09-15'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '460',
+        ear: '478458',
+        childbirth: new Date('2024-09-15'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '2013',
+        ear: '916171',
+        childbirth: new Date('2024-09-16'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '2022',
+        ear: '917161',
+        childbirth: new Date('2024-09-16'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
     {
         collar: '428',
-        ear: 'n/a',
+        ear: '918276',
         childbirth: new Date('2024-09-05'),
         ruptures: false,
         placentaRetention: false,
@@ -156,6 +471,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '424',
@@ -167,6 +488,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '418',
@@ -178,6 +505,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '407',
@@ -189,6 +522,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '393',
@@ -200,6 +539,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '387',
@@ -211,6 +556,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '385',
@@ -222,6 +573,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '389',
@@ -233,6 +590,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '276',
@@ -244,6 +607,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '362',
@@ -255,6 +624,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '390',
@@ -266,6 +641,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '310',
@@ -277,6 +658,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '311',
@@ -288,6 +675,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '309',
@@ -299,6 +692,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '419',
@@ -310,6 +709,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '434',
@@ -321,6 +726,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '277',
@@ -332,6 +743,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '368',
@@ -343,6 +760,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '379',
@@ -354,6 +777,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '357',
@@ -365,6 +794,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '355',
@@ -376,6 +811,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '345',
@@ -386,7 +827,37 @@ export const cows = [
         endometritis: true,
         mastitis: false,
         test: false,
-        enable: true,
+        treatment: [
+            {
+                date: '24.08',
+                treatment: 'ПП, Метростим'
+            },
+            {
+                date: '27.08',
+                treatment: 'Метростим после ПП'
+            },
+            {
+                date: '29.08',
+                treatment: 'Эстрофан'
+            },
+            {
+                date: '02,09',
+                treatment: 'Метростим'
+            },
+            {
+                date: '05,09',
+                treatment: 'Эндометрит. Полийодометрин, Айнил 20,0, Метростим 7,0 Кетоны 0,8'
+            },
+            {
+                date: '10,09',
+                treatment: 'Эндометрит. Полийодометрин, Айнил 20,0, Метростим 7,0'
+            },
+            {
+                date: '13,09',
+                treatment: 'Метростим, Тест'
+            },
+        ],
+        enable: false,
     },
     {
         collar: '273',
@@ -397,7 +868,33 @@ export const cows = [
         endometritis: false,
         mastitis: false,
         test: false,
-        enable: true,
+        treatment: [
+            {
+                date: '24.08',
+                treatment: 'ПП, метростим'
+            },
+            {
+                date: '29.08',
+                treatment: 'Эстрофан'
+            },
+            {
+                date: '02.09',
+                treatment: 'Метростим'
+            },
+            {
+                date: '05.09',
+                treatment: 'Метростим. Тест. Кетоны 1,3 (14 день)'
+            },
+            {
+                date: '06.09',
+                treatment: 'Мастит, перевод в сан секцию. Пенстреп 60,0, Айнил 20,0, Кальция глюконат 200,0, Гепатоджект 100,0'
+            },
+            {
+                date: '07.09',
+                treatment: 'Кетоны 0,7'
+            },
+        ],
+        enable: false,
     },
     {
         collar: '261',
@@ -409,6 +906,12 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '1942',
@@ -420,6 +923,12 @@ export const cows = [
         mastitis: false,
         test: true,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
     {
         collar: '155',
@@ -431,5 +940,79 @@ export const cows = [
         mastitis: false,
         test: false,
         enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '1967',
+        ear: '912421',
+        childbirth: new Date('2024-09-10'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '1960',
+        ear: '913959',
+        childbirth: new Date('2024-09-09'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '2036',
+        ear: '917046',
+        childbirth: new Date('2024-09-09'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: true,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
+    },
+    {
+        collar: '1960',
+        ear: '913959',
+        childbirth: new Date('2024-09-09'),
+        ruptures: false,
+        placentaRetention: false,
+        endometritis: false,
+        mastitis: false,
+        test: false,
+        enable: true,
+        treatment: [
+            {
+                date: '',
+                treatment: ''
+            }
+        ]
     },
 ]

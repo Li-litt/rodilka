@@ -191,6 +191,6 @@ function renderCowCard(number) {
 //     const ear = earInput.value
 //     renderCowCard(ear);
 // }
-
+renderCows()
 renderKetonsSeven()
 renderKetonsFourteen()
